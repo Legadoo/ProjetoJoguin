@@ -13,4 +13,12 @@ public class Personagem {
         }
         else trabalhou = true;
     }
+    public void system() {
+    	Float damage = 10f;
+    	
+    	vida -= damage;
+    	if(vida <= 0) {
+    		vivo = false;
+    	}
+    }
 }
